@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+}
+
+body {
+  @apply bg-slate-900 text-slate-100;
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
